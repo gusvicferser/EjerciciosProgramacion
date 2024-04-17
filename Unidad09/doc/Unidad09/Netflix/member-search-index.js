@@ -1,0 +1,1 @@
+memberSearchIndex = [{"p":"Netflix","c":"Main","l":"Main()","u":"%3Cinit%3E()"},{"p":"Netflix","c":"Main","l":"main(String[])","u":"main(java.lang.String[])"},{"p":"Netflix","c":"Main","l":"menu()"}];updateSearchResults();
