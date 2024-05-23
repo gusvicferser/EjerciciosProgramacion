@@ -46,7 +46,10 @@ public class ProgramaMascotas {
 			System.out.print(bicho.getNombre() + " dice ");
 			bicho.habla();
 		}
+		
+	
 	}
+
 }
 
 abstract class Mascota {
@@ -78,7 +81,7 @@ abstract class Mascota {
 	}
 	
 	@Override
-	public abstract String toString(); // toString() existe en todos los objetos instanciables de base.
+	public abstract String toString();
 	public abstract void habla();
 		
 }

@@ -86,7 +86,6 @@ abstract class Astro{
 class Planeta extends Astro{
 	
 	protected double distanciaSol;
-//	Se puede hacer (y de hecho se debería) hacer Arrays en esta clase. (Pendiente)
 	
 	public Planeta () {
 		
@@ -102,7 +101,7 @@ class Planeta extends Astro{
 	@Override
 	public final String toString() {
 		
-		return "Planeta de nombre " + nombre + " y masa " + masa + ". Tiene una temperatura media de " + temperaturaMedia + " y una distancia a su sol de " + distanciaSol;
+		return "El planeta de nombre " + nombre + " y masa " + masa + ". Tiene una temperatura media de " + temperaturaMedia + " y una distancia a su sol de " + distanciaSol;
 	}
 }
 
@@ -124,6 +123,6 @@ class Satelite extends Astro{
 	@Override
 	public final String toString() {
 		
-		return "Satélite de nombre " + nombre + " y masa " + masa + ". Tiene una temperatura media de " + temperaturaMedia + " y una distancia a su planeta de " + distanciaPlaneta;
+		return "El satélite de nombre " + nombre + " y masa " + masa + ". Tiene una temperatura media de " + temperaturaMedia + " y una distancia a su planeta de " + distanciaPlaneta;
 	}
 }

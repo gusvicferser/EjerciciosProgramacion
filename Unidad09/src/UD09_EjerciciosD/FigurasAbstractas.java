@@ -10,7 +10,6 @@ public class FigurasAbstractas {
 		figuras.add(new Circulo(10)); // Radio=10
 		figuras.add(new Cuadrado(10)); // Lado=10
 		figuras.add(new Triangulo(10, 5)); // Base=10, Altura=5;
-		figuras.add(new Rectangulo(10, 5)); // Base=10, Altura=5;
 
 		for (Figura f : figuras)
 			System.out.println("Área: " + f.area());
@@ -94,27 +93,5 @@ class Triangulo extends Figura {
 	@Override // Se pone Override en todas las funciones que se sobreescriben
 	protected double area() {
 		return ((base * altura) / 2);
-	}
-}
-
-class Rectangulo extends Figura {
-
-	protected int base;
-	protected int altura;
-
-	public Rectangulo() {
-		super();
-	}
-
-	public Rectangulo(int base, int altura) {
-		super();
-		this.base = base;
-		this.altura = altura;
-		area();
-	}
-
-	@Override // Se pone Override en todas las funciones que se sobreescriben
-	protected double area() {
-		return (base*altura);
 	}
 }
